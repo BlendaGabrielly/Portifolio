@@ -1,0 +1,39 @@
+header{
+    background-color: aqua;
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+}
+/* Adicione estilos conforme necessário */
+
+/* Estilo para a classe Icon */
+.Icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinha os ícones à direita */
+    margin-right: 10px; /* Adiciona uma margem à direita para espaçamento */
+}
+
+/* Estilo para a navegação dentro da classe Icon */
+.Icon nav {
+    margin-left: auto;
+}
+
+/* Estilo para a lista dentro da navegação */
+.Icon nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Adiciona display flex para os itens da lista ficarem na mesma linha */
+}
+
+/* Estilo para os itens da lista dentro da navegação */
+.Icon nav ul li {
+    margin-right: 10px;
+}
+
+/* Estilo para os links dentro dos itens da lista */
+.Icon nav ul li a img {
+    width: 20px; /* Defina a largura desejada */
+    height: auto;
+}
